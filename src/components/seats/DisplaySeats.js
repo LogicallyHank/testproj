@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { reserveSeat } from '../../store/actions/seatActions';
 import { Redirect } from 'react-router-dom';
+
 // import logo from './logo.svg';
 import '../../App.css';
 
@@ -54,7 +55,11 @@ constructor() {
   }
   
   render() {
+    const { auth } = this.props;
+    console.log(this.props)
+    // if (!auth.uid) return <Redirect to='SignIn'/>
     return (
+
       <div>
         <DrawGrid 
           seat = { this.state.seat }

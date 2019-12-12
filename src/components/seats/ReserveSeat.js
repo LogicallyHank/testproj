@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { reserveSeat } from '../../store/actions/seatActions';
 import { Redirect } from 'react-router-dom';
+import '../../white-form.css';
 
 class ReserveSeat extends Component {
 	state = {
@@ -24,10 +25,11 @@ class ReserveSeat extends Component {
 		if (!auth.uid) return <Redirect to='SignIn'/>
 		return (
 			<div className="container">
-				<form onSubmit={this.handleSubmit} className="white">
+				<form onSubmit={this.handleSubmit} className="container1">
 					<h5 className="white-text text-darken-3">Reserve Seat</h5>
+
 					<div className="input-field">
-						<button className="btn pink lighten-1 z-depth-0">Reserve</button>
+						<button className="btn deep-purple lighten-1 z-depth-0">Reserve</button>
 					</div>
 				</form>
 

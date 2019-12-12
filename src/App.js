@@ -6,9 +6,10 @@ import ProjectDetails from './components/projects/ProjectDetails'
 import SignIn from './components/auth/SignIn';
 import SignUp from './components/auth/SignUp';
 import CreateProject from './components/projects/CreateProject';
-import ClaimSeat from './components/seats/ReserveSeat';
-import ReserveSeat from './components/seats/ClaimSeat';
+import ClaimSeat from './components/seats/ClaimSeat';
+import ReserveSeat from './components/seats/ReserveSeat';
 import DisplaySeats from './components/seats/DisplaySeats';
+import DrawGrid from './components/seats/DrawGrid';
 
 function App() {
   return (

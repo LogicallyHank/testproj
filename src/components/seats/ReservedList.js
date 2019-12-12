@@ -12,3 +12,5 @@ class ReservedList extends React.Component {
     )
   }
 }
+
+export default ReservedList;

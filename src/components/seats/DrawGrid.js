@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import ReservedList from './ReservedList';
+import AvailableList from './AvailableList';
 
 class DrawGrid extends React.Component {
   render() {

@@ -15,14 +15,14 @@ import 'firebase/auth';
 // };
 
 var firebaseConfig = {
-    apiKey: "AIzaSyCLucguX0eUvQn7pBt0Ur6Dsddiibg_Tj8",
-    authDomain: "seat-10a7e.firebaseapp.com",
-    databaseURL: "https://seat-10a7e.firebaseio.com",
-    projectId: "seat-10a7e",
-    storageBucket: "seat-10a7e.appspot.com",
-    messagingSenderId: "100564173150",
-    appId: "1:100564173150:web:a34d82089e025ac04a4fcf",
-    measurementId: "G-1TQ18C3Q6Q"
+  apiKey: "AIzaSyC3JzqTLiMjHD5W0I79sKsUUiR0j1JAppw",
+  authDomain: "applab-seat.firebaseapp.com",
+  databaseURL: "https://applab-seat.firebaseio.com",
+  projectId: "applab-seat",
+  storageBucket: "applab-seat.appspot.com",
+  messagingSenderId: "438616734108",
+  appId: "1:438616734108:web:9d740e8cb479a67fd63059",
+  measurementId: "G-6MK0GKM3RE"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
